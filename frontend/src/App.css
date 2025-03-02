@@ -1,0 +1,78 @@
+.App {
+  text-align: left; padding: 0px 0px; background-color: rgb(246, 243, 240);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background-color: #282c34;
+  color: aliceblue;
+  font-size: 30px;
+  padding: 10px 100px;
+  width: 97%;
+  padding: 20px 20px;
+  height: 100px;
+}
+.logo {
+  float: left; color: aliceblue; text-decoration: none; background-color: aliceblue; padding: 0px 10px;
+}
+.cart {
+  float: right;
+}
+
+.Nav {
+  float: left;
+  width: 25%;
+  background-color: antiquewhite;
+  padding: 40px 10px;
+  margin-right: 20px;
+}
+
+.productdv {
+  float: left;
+  width: 70%;
+  padding: auto;
+}
+
+.item {float: left; width: 30%; margin: 20px 10px; border: 2px solid; text-align: center; padding: 10px 0px;}
+.primary-btn {background-color: chocolate; color: aliceblue; padding: 5px; cursor: pointer;}
+.cart {font-size: 13px; color: aliceblue; text-decoration: none; background-color: aliceblue; padding: 10px; }
+.cartimg {float: left; width: 170px;}
+.carttitle {float: left; width: 200px;}
+.mainDiv {float: left; width: 500px;}
+.maindv2 {float: left; width: 600px;}
+.payment {float: left; width:300px;}
+.pay {padding: 10px 30px; background-color: brown; color: aliceblue; cursor: pointer;}
